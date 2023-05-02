@@ -1,0 +1,15 @@
+[[package]]
+name = "tinydb"
+version = "4.7.1"
+requires_python = ">=3.7,<4.0"
+summary = "TinyDB is a tiny, document oriented database optimized for your happiness :)"
+
+[metadata]
+lock_version = "4.0"
+content_hash = "sha256:bd37bb6f7ddb927d491367a4e91eb2949d1b914fe2d3e365fd5ba49e20ff62b0"
+
+[metadata.files]
+"tinydb 4.7.1" = [
+    {url = "https://files.pythonhosted.org/packages/0a/a9/303de29f4b293b5948c8c73f9ef92480329a4d37f6ba168c76250ab4c6b3/tinydb-4.7.1-py3-none-any.whl", hash = "sha256:1534e498ca23f55c43b0f1e7c0cf174049498ab45a887c82ba9831e0f9868df3"},
+    {url = "https://files.pythonhosted.org/packages/32/ed/78f24df0fec08f0fb92fc4b4758adcab780660caa8c3f94c2e175eb7e2ba/tinydb-4.7.1.tar.gz", hash = "sha256:8955c239a79b8a6c8f637900152e2de38690848199d71d870c33c16405433ca5"},
+]
