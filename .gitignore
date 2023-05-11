@@ -6,3 +6,5 @@
 MyBooleanLife/__pycache__/__init__.cpython-311.pyc
 MyBooleanLife/__pycache__/db.cpython-311.pyc
 MyBooleanLife/__pycache__/main.cpython-311.pyc
+/frontend/.cache
+/frontend/node_modules
