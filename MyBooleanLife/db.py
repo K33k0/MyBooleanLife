@@ -115,7 +115,7 @@ def read_task_names(cursor: sqlite3.Cursor) -> list[str]:
     results = [r[0] for r in result.fetchall()]
     return results
 
-def get_task_completions(cursor: sqlite3.Cursor, name: str) -> list[tuple[str,str]]:
+def get_task_completions(cursor: sqlite3.Cursor, name: str) -> list[str]:
     cursor.execute(__SQL_READ_TASK_COMPLETIONS_BY_NAME, (name,))
     result = cursor.fetchall()
     return [r[0] for r in result]
