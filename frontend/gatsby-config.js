@@ -6,5 +6,5 @@ module.exports = {
     title: `My Boolean Life`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-emotion"]
+  plugins: ["gatsby-plugin-emotion",`gatsby-plugin-material-ui`]
 };
